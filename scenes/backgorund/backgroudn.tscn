@@ -1,0 +1,31 @@
+[gd_scene load_steps=6 format=3 uid="uid://cuynplvvlor1c"]
+
+[ext_resource type="Texture2D" uid="uid://dh2ocrd21ghki" path="res://assets/background/sky.png" id="1_oaaju"]
+[ext_resource type="Texture2D" uid="uid://cbifb7a1h0xuh" path="res://assets/background/sun.png" id="2_btu72"]
+[ext_resource type="Texture2D" uid="uid://c1smg4yrbknwf" path="res://assets/background/upper_cloud.png" id="3_ncvpx"]
+[ext_resource type="Texture2D" uid="uid://bgbilpc3u7j57" path="res://assets/background/Clous.png" id="4_tbn68"]
+[ext_resource type="Texture2D" uid="uid://dwq3m8obrevml" path="res://assets/background/Ground.png" id="6_2221c"]
+
+[node name="Background" type="Node2D"]
+
+[node name="SkyBack" type="Sprite2D" parent="."]
+texture = ExtResource("1_oaaju")
+centered = false
+
+[node name="Sun2" type="Sprite2D" parent="."]
+texture = ExtResource("2_btu72")
+centered = false
+
+[node name="UperClud" type="Sprite2D" parent="."]
+position = Vector2(8, -16)
+texture = ExtResource("3_ncvpx")
+centered = false
+
+[node name="InnerClud" type="Sprite2D" parent="."]
+position = Vector2(0, 24)
+texture = ExtResource("4_tbn68")
+centered = false
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("6_2221c")
+centered = false

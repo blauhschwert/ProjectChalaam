@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://bnca4m6juph22"]
+
+[ext_resource type="PackedScene" uid="uid://cd8ifvvx1klwq" path="res://scenes/levels/platforms/basic_platform.tscn" id="1_1mbb0"]
+[ext_resource type="PackedScene" uid="uid://dmdmdq1tv522v" path="res://scenes/levels/platforms/big_platform.tscn" id="2_djq5r"]
+[ext_resource type="PackedScene" uid="uid://b3tspd2fuejg7" path="res://scenes/levels/platforms/mini_platform.tscn" id="3_4q5vu"]
+
+[node name="LevelSample00" type="Node2D"]
+metadata/_edit_vertical_guides_ = [704.0]
+
+[node name="BasicPlatform" parent="." instance=ExtResource("1_1mbb0")]
+position = Vector2(184, 168)
+
+[node name="BigPlatform" parent="." instance=ExtResource("2_djq5r")]
+position = Vector2(32, 152)
+
+[node name="BigPlatform3" parent="." instance=ExtResource("2_djq5r")]
+position = Vector2(432, 160)
+
+[node name="BigPlatform4" parent="." instance=ExtResource("2_djq5r")]
+position = Vector2(536, 160)
+
+[node name="BasicPlatform2" parent="." instance=ExtResource("3_4q5vu")]
+position = Vector2(120, 152)
+
+[node name="BasicPlatform3" parent="." instance=ExtResource("3_4q5vu")]
+position = Vector2(336, 152)
+
+[node name="BasicPlatform4" parent="." instance=ExtResource("3_4q5vu")]
+position = Vector2(648, 176)
+
+[node name="BigPlatform2" parent="." instance=ExtResource("2_djq5r")]
+position = Vector2(256, 136)

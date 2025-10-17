@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://b3tspd2fuejg7"]
+
+[ext_resource type="PackedScene" uid="uid://cd8ifvvx1klwq" path="res://scenes/levels/platforms/basic_platform.tscn" id="1_jv8ms"]
+[ext_resource type="Texture2D" uid="uid://dip00ujvbjkqi" path="res://assets/Platform mit.png" id="2_8bwrg"]
+
+[node name="BasicPlatform" instance=ExtResource("1_jv8ms")]
+
+[node name="Sprite2D" parent="." index="0"]
+position = Vector2(0, -4)
+texture = ExtResource("2_8bwrg")
+
+[node name="CollisionShape2D" parent="." index="1"]
+position = Vector2(0.5, -3)
