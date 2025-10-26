@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://cysccchy7rg23"]
+
+[ext_resource type="Texture2D" uid="uid://bqnfamjkcegxx" path="res://assets/Uniqo.png" id="1_f7iuw"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_f7iuw"]
+radius = 5.0
+height = 18.0
+
+[node name="Area2D" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_f7iuw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_f7iuw")

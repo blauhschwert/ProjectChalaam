@@ -1,0 +1,27 @@
+[gd_scene load_steps=6 format=3 uid="uid://cla02bis1cx27"]
+
+[ext_resource type="PackedScene" uid="uid://cuynplvvlor1c" path="res://scenes/backgorund/backgroudn.tscn" id="1_0wfyh"]
+[ext_resource type="Script" uid="uid://cu7275xuctmda" path="res://scenes/main.gd" id="1_tbgi4"]
+[ext_resource type="PackedScene" uid="uid://gvebeqffb1ys" path="res://scenes/ground.tscn" id="2_sugp2"]
+[ext_resource type="PackedScene" uid="uid://wnlglpbqnusm" path="res://scenes/player/player.tscn" id="3_sugp2"]
+[ext_resource type="AudioStream" uid="uid://cx21n5nfsjeke" path="res://DavidKBD - Tropical Pack - 02 - Jamaican Sunrise - Reggae.ogg" id="5_tefeu"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_tbgi4")
+
+[node name="Background" parent="." instance=ExtResource("1_0wfyh")]
+
+[node name="Ground" parent="." instance=ExtResource("2_sugp2")]
+collision_layer = 2
+collision_mask = 2
+
+[node name="Player" parent="." instance=ExtResource("3_sugp2")]
+position = Vector2(151, 151)
+collision_mask = 2
+motion_mode = 0
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(160, 90)
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_tefeu")

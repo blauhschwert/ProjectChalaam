@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cx21n5nfsjeke"
+path="res://.godot/imported/DavidKBD - Tropical Pack - 02 - Jamaican Sunrise - Reggae.ogg-27dec845b8947b8614bb2f8bef0c34b2.oggvorbisstr"
+
+[deps]
+
+source_file="res://DavidKBD - Tropical Pack - 02 - Jamaican Sunrise - Reggae.ogg"
+dest_files=["res://.godot/imported/DavidKBD - Tropical Pack - 02 - Jamaican Sunrise - Reggae.ogg-27dec845b8947b8614bb2f8bef0c34b2.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
